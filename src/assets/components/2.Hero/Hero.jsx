@@ -62,9 +62,7 @@ const Hero = () => {
       <div className="hero-overlay"></div>
 
       <div className="hero-content">
-        <h1 className="hero-title">
-          Planning, Designing, and Building Your Future
-        </h1>
+        <h1 className="hero-title">Ирээдүйгээ төлөвлөх, бүтээх</h1>
         <p className="hero-subtitle">
           Y.A Construction Company is dedicated to creating spaces that inspire
           and endure.
