@@ -22,19 +22,18 @@ const Service = () => {
 
   return (
     <section id="service" className="service">
-      <h2 className="service_title">Our Services</h2>
-      <div className="service_grid">
-        {services.map((service, index) => (
-          <div className="service_item" key={index}>
-            <h3 className="service_name">{service.title}</h3>
-            <p className="service_description">{service.description}</p>
-          </div>
-        ))}
+      <div className="service_container">
+        <h2 className="service_title">Our Services</h2>
+        <div className="service_grid">
+          {services.map((service, index) => (
+            <div className="service_item" key={index}>
+              <h3 className="service_name">{service.title}</h3>
+              <p className="service_description">{service.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
 };
-
 export default Service;
-// This Service component is a section that lists the services offered by the company.
-// It includes a title and descriptions for each service, making it clear what the company specializes in.
